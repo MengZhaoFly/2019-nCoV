@@ -1,0 +1,15 @@
+{
+  "apps" : [{
+    "name"        : "dxy-data",
+    "script"      : "./dist/index.js",
+    "node_args"   : "--harmony",
+    "merge_logs"  : true,       
+    "log_file": "./log/log.log",
+    "out_file": "./log/out.log",
+    "error_file": "./log/err.log",
+    "env": {
+      "MONGODB_URL": "production",
+      "PORT": 3001
+    }
+  }]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dxy-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "MONGODB_UR=mongodb://127.0.0.1:27017 && nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.8.19",
+    "jsdom": "^16.1.0",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.6",
+    "mongoose": "^5.8.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.4",
+    "@types/koa": "^2.11.0",
+    "@types/koa-router": "^7.4.0",
+    "@types/mongoose": "^5.7.0",
+    "@types/request": "^2.48.4"
+  }
+}
